@@ -1,7 +1,4 @@
-﻿using Carter;
-using MediatR;
-using Mapster;
-namespace CatalogAPI.API.Products.CreateProduct;
+﻿namespace CatalogAPI.API.Products.CreateProduct;
 
 public record CreateProductRequest(string Name,
     List<string> Category, string Description, string ImageFile,
